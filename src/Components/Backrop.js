@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Backrop({sidebar,closeSidebar}) {
+function Backrop() {
   return (
-    <div className={sidebar?"backrop backrop--open":"backrop"} >
-        <i className="fa-solid fa-xmark top-2 absolute p-1 right-1 text-3xl rounded-full h-8 w-8 cursor-pointer xs:text-lg " onClick={closeSidebar}></i>
-    </div>
-  )
-}
+     <div>
+      hiiiii
+     </div>
+  );
+};
 
-export default Backrop
+export default Backrop;

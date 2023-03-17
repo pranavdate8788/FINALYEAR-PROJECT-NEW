@@ -2,40 +2,40 @@ import React from 'react'
 
 function Content() {
   return (
-    <div className=" content w-screen h-auto bg-purple-600 rounded-t-3xl flex">
-    <div className="flex flex-col  w-3/5">
-  <div className=" h-auto p-2">
+    <div className="content  h-auto rounded-t-3xl flex bg-purple-300 xs:w-full">
+    <div className="flex flex-col w-3/5 xs:w-full">
+  <div className=" h-auto p-2 xs:p-1 ">
     <div className="flex justify-between  p-2 m-4 items-center">
-      <h4> May 5, 2023</h4>
-      <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+      <h4 className="xs:text-lg"> May 5, 2023</h4>
+      <i class="fa-sharp fa-solid fa-ellipsis-vertical xs:text-lg"></i>
     </div>
-    <div className="bg-gray-600 h-80 p-2 rounded-lg m-4"></div>
-    <div className="flex justify-between p-2 items-center text-xl ">
-      <h1>What is Design thinking ?</h1>
-      <div className="flex   items-center gap-5 p-2  ">
-        <div className="flex  gap-1 items-center">
+    <div className="bg-gray-600 h-80 p-2 rounded-lg m-4 xs:h-40 xs:p-1 xs:m-2"></div>
+    <div className="flex justify-between p-2 items-center text-xl xs:text-sm ">
+      <h1 className="xs:text-xs font-semibold" >What is Design thinking ?</h1>
+      <div className="flex   items-center gap-5 p-2 xs:gap-0 xs:text-xs xs:p-1 ">
+        <div className="flex  gap-1 items-center xs:gap-1 xs:text-xs">
           {" "}
           <i class="fa-solid fa-indian-rupee-sign"></i>
           <label>59(per hour)</label>
         </div>
-        <div className="flex gap-1  items-center">
+        <div className="flex gap-1  items-center xs:gap-1 xs:text-xs">
           {" "}
           <h4>4</h4>
           <label>sits left</label>
         </div>
-        <div className="flex  gap-1 items-center">
+        <div className="flex  gap-1 items-center xs:gap-1 xs:text-xs">
           {" "}
           <h4>60</h4>
           <i class="fa-solid fa-thumbs-up"></i>
         </div>
-        <div className="flex gap-1  items-center">
+        <div className="flex gap-1  items-center xs:gap-1 xs:text-xs">
           {" "}
           <h4>60</h4>
           <i class="fa-solid fa-thumbs-down"></i>
         </div>
       </div>
     </div>
-    <p>
+    <p className="xs:text-xs">
       Discription Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Morbi eget ex in tortor tincidunt consectetur. Etiam at viverra justo.
       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -44,24 +44,24 @@ function Content() {
       dapibus dolor. Aliquam erat volutpat.
     </p>
   </div>
- <div className="flex justify-between  p-3">
-    <div className="flex items-center gap-2  ">
-        <div className="bg-red-400 rounded-full h-14 w-14 ">
+ <div className="flex justify-between  p-3 xs:p-1">
+    <div className="flex items-center gap-2 xs:gap-1 ">
+        <div className="bg-red-400 rounded-full h-14 w-14 xs:h-10 xs:w-10 ">
 
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col xs:text-xs">
             <label>Tutor Name</label>
             <label>1.2k Favourite</label>
         </div>
     </div>
-    <button className="bg-blue-400 w-20 h-11 rounded-md ">Favourite</button>
+    <button className="bg-blue-400 w-20 h-11 rounded-md xs:w-20 xs:p-1 xs:h-10 ">Favourite</button>
  </div>
- <div className="flex items-center p-2 gap-3 " >
+ <div className="flex items-center p-2 gap-3 xs:text-sm " >
     <div className="flex p-1 gap-1 "><h3>286</h3><label>Comments</label></div>
     <div className="flex gap-1 items-center">  <i class="fa-solid fa-bars-staggered"></i> <label>Sort by</label></div>
  </div>
  </div>
- <div className=" flex  flex-col w-2/5 p-2">
+ <div className=" flex  flex-col w-2/5 p-2 xs:hidden">
  <h4 className="text-lg" >Select available dates</h4>
       <div className="flex flex-wrap bg-lime-300 p-4 gap-2 text-lg font-semibold rounded-2xl ">
           <span className="h-16 w-16 p-4 bg-slate-400 rounded-full">Mon</span>
@@ -123,7 +123,7 @@ function Content() {
  </div>
 
 </div>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;

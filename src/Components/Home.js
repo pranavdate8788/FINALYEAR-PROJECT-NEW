@@ -3,6 +3,7 @@ import Content from "./Content";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import FirstContetnt from "./FirstContetnt";
+import Backrop from "./Backrop";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Routes>
           <Route path="/" element={<FirstContetnt />} />
           <Route path="/content" element={<Content />} />
+          <Route path="/backrop" element={<Backrop />} />
         </Routes>
       </Router>
     </>
