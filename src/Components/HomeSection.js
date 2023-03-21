@@ -1,12 +1,15 @@
-import React from "react";
+import React from 'react'
 import VerticalNav from "./VerticalNav";
-import Home from "./Home";
+import Home from "./Home"
 
-export default function () {
+
+function HomeSection() {
   return (
-    <div className="flex h-calc-16 w-screen bg-white xs:flex-col-reverse xs:relative xs:p-1">
-      <VerticalNav />
-      <Home />
-    </div>
+    <div className="flex h-calc-16  bg-indigo-100 dark:bg-slate-800 xs:flex-col-reverse xs:relative xs:p-1">
+    <VerticalNav/>
+    <Home />
+  </div>
   );
-}
+};
+
+export default HomeSection

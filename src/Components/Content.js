@@ -2,14 +2,14 @@ import React from 'react'
 
 function Content() {
   return (
-    <div className="content  h-auto rounded-t-3xl flex bg-purple-300 xs:w-full">
+    <div className="content  h-auto rounded-t-3xl flex dark:text-white dark:bg-slate-700 bg-slate-100 xs:w-full">
     <div className="flex flex-col w-3/5 xs:w-full">
   <div className=" h-auto p-2 xs:p-1 ">
     <div className="flex justify-between  p-2 m-4 items-center">
       <h4 className="xs:text-lg"> May 5, 2023</h4>
       <i class="fa-sharp fa-solid fa-ellipsis-vertical xs:text-lg"></i>
     </div>
-    <div className="bg-gray-600 h-80 p-2 rounded-lg m-4 xs:h-40 xs:p-1 xs:m-2"></div>
+    <div className="bg-orange-400 h-80 p-2 rounded-xl  m-4 xs:h-40 xs:p-1 xs:m-2"></div>
     <div className="flex justify-between p-2 items-center text-xl xs:text-sm ">
       <h1 className="xs:text-xs font-semibold" >What is Design thinking ?</h1>
       <div className="flex   items-center gap-5 p-2 xs:gap-0 xs:text-xs xs:p-1 ">
@@ -63,8 +63,8 @@ function Content() {
  </div>
  <div className=" flex  flex-col w-2/5 p-2 xs:hidden">
  <h4 className="text-lg" >Select available dates</h4>
-      <div className="flex flex-wrap bg-lime-300 p-4 gap-2 text-lg font-semibold rounded-2xl ">
-          <span className="h-16 w-16 p-4 bg-slate-400 rounded-full">Mon</span>
+      <div className="flex flex-wrap dark:bg-orange-300 dark:text-black bg-green-200 p-4 gap-2 text-lg font-semibold rounded-2xl ">
+          <span className="h-16 w-16 p-4 bg-slate-400 dark:border-black rounded-full">Mon</span>
           <span className="h-16 w-16 p-4 bg-slate-400 rounded-full">Tue</span>
           <span className="h-16 w-16 p-4 bg-slate-400 rounded-full">Wed</span>
           <span className="h-16 w-16 p-4 bg-slate-400 rounded-full">Thur</span>
@@ -106,7 +106,7 @@ function Content() {
       </div>
      <div className="flex flex-col p-3">
        <h3>Select Available Time Slot</h3>
-        <div className="w-full h-auto p-2 flex flex-wrap gap-2 justify-evenly ">
+        <div className="w-full h-auto p-2 flex flex-wrap gap-2 justify-evenly dark:text-black ">
             <button className="w-2/5 rounded-2xl bg-gray-300 h-9">10:00AM-11:00AM</button> 
             <button  className="w-2/5 rounded-2xl  bg-gray-300 h-9" >10:00AM-11:00AM</button> 
             <button  className="w-2/5 rounded-2xl  bg-gray-300 h-9" >10:00AM-11:00AM</button> 
@@ -119,7 +119,7 @@ function Content() {
         <input className="w-full p-2 rounded-2xl" placeholder="Write something..." type={Text}></input>
      </div>
      <div className="flex justify-center">
-     <button className="w-48 h-10 bg-slate-300 rounded-lg p-1">Book Slot</button></div>
+     <button className="w-48 h-10 bg-slate-300 dark:text-black  rounded-lg p-1">Book Slot</button></div>
  </div>
 
 </div>
