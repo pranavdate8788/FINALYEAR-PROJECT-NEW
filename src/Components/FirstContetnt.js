@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function FirstContetnt() {
   return (
-    <div className="home  h-auto bg-white light dark:text-white dark:bg-slate-600 p-4 rounded-t-3xl  ">
+    <div className="home  h-auto bg-white light dark:text-white dark:bg-slate-600 p-4 rounded-t-3xl overflow-x-hidden  ">
       <div className="flex w-full  justify-between p-2 xs:items-center xs:font-semibold">
         <div className="flex-col text-lg  ">
           <h1 className="font-bold text-2xl">Results</h1>
@@ -33,7 +33,7 @@ function FirstContetnt() {
           </div>
         </div>
       </div>
-      <div className="flex overflow-y-hidden dark:text-slate-100">
+      <div className="flex  overflow-y-hidden dark:text-slate-100">
         <Link to={"/backrop"}>
           {" "}
           <div className="relative w-max flex m-4 justify-center  ">
@@ -86,7 +86,7 @@ function FirstContetnt() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap mt-3 font-semibold">
+      <div className="flex flex-wrap mt-3 font-semibold sticky overflow-x-hidden">
         <Link to={"/content"}>
           <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-slate-800 bg-yellow-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">

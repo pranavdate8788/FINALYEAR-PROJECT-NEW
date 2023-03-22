@@ -1,8 +1,23 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import { useState, useEffect } from "react";
+import { useState, useEffect , useRef } from "react";
+import DropdownProfile from "./DropdownProfile";
 
 const Header = () => {
+  const [openProfile ,setOpenProfile]= useState(false);
+  let menuRef = useRef();
+  useEffect(()=>{
+    let handler = (e)=>{
+      if(!menuRef.current.contains(e.target)){
+        setOpenProfile(false);
+      }
+    };
+    document.addEventListener("mousedown",handler);
+    return()=>{
+      document.removeEventListener("mousedown",handler);
+    };
+  });
+
 const [theme, setTheme] = useState("light");
 useEffect(()=> {
   if (theme === "dark"){
@@ -25,7 +40,8 @@ const handleThemeSwitch =()=>{
 
 
   return (
-    <div className="flex w-full bg-indigo-100 dark:bg-slate-800 dark:text-white  justify-between p-2 h-16    ">
+    <>
+    <div className="flex w-full bg-indigo-100 sticky top-0 z-10 dark:bg-slate-800 dark:text-white  justify-between p-2 h-16"  >
       <div className="flex items-center gap-9 p-2 text-lg xs:gap-4  xs:w-full ">
         <div>
           <i
@@ -46,12 +62,25 @@ const handleThemeSwitch =()=>{
 
         <i className="fa-solid fa-circle-plus"></i>
         <i className="fa-solid fa-bell"></i>
-        <div className=" flex justify-between items-center gap-2">
-          <i className="fa-solid fa-user profile"></i>
-          <span>TutorName</span>
+        <div className=" flex justify-between items-center gap-2 cursor-pointer "  ref={menuRef} onClick={()=> setOpenProfile((prev)=> !prev)}>
+        <img
+          className="rounded-full h-11 w-11"
+          src="https://www.fakepersongenerator.com/Face/female/female20161025115339539.jpg"
+          alt=""
+        />
+        {
+          
+            openProfile&&<DropdownProfile  />
+            
+          }
+          <span>Ashwin Telmore</span>
+          
         </div>
+        
       </div>
     </div>
+   
+    </>
   );
 };
 
