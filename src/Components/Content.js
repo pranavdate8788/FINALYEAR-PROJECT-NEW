@@ -2,14 +2,14 @@ import React from 'react'
 
 function Content() {
   return (
-    <div className="content  h-auto rounded-t-3xl flex dark:text-white dark:bg-slate-700 bg-slate-100 xs:w-full">
+    <div className="content  h-auto rounded-t-3xl flex dark:text-white dark:bg-zinc-800 bg-slate-100 xs:w-full">
     <div className="flex flex-col w-3/5 xs:w-full">
   <div className=" h-auto p-2 xs:p-1 ">
     <div className="flex justify-between  p-2 m-4 items-center">
       <h4 className="xs:text-lg"> May 5, 2023</h4>
       <i class="fa-sharp fa-solid fa-ellipsis-vertical xs:text-lg"></i>
     </div>
-    <div className="bg-orange-400 h-80 p-2 rounded-xl  m-4 xs:h-40 xs:p-1 xs:m-2"></div>
+    <div className="bg-orange-4cd 00 dark:bg-slate-600 h-80 p-2 rounded-xl  m-4 xs:h-40 xs:p-1 xs:m-2"></div>
     <div className="flex justify-between p-2 items-center text-xl xs:text-sm ">
       <h1 className="xs:text-xs font-semibold" >What is Design thinking ?</h1>
       <div className="flex   items-center gap-5 p-2 xs:gap-0 xs:text-xs xs:p-1 ">
@@ -46,7 +46,7 @@ function Content() {
   </div>
  <div className="flex justify-between  p-3 xs:p-1">
     <div className="flex items-center gap-2 xs:gap-1 ">
-        <div className="bg-red-400 rounded-full h-14 w-14 xs:h-10 xs:w-10 ">
+        <div className="bg-red-300 rounded-full h-14 w-14 xs:h-10 xs:w-10 ">
 
         </div>
         <div className="flex flex-col xs:text-xs">
@@ -54,7 +54,7 @@ function Content() {
             <label>1.2k Favourite</label>
         </div>
     </div>
-    <button className="bg-blue-400 w-20 h-11 rounded-md xs:w-20 xs:p-1 xs:h-10 ">Favourite</button>
+    <button className="bg-blue-400 w-24 h-11 rounded-md xs:w-20 xs:p-1 xs:h-10 ">Favourite</button>
  </div>
  <div className="flex items-center p-2 gap-3 xs:text-sm " >
     <div className="flex p-1 gap-1 "><h3>286</h3><label>Comments</label></div>
@@ -107,10 +107,10 @@ function Content() {
      <div className="flex flex-col p-3">
        <h3>Select Available Time Slot</h3>
         <div className="w-full h-auto p-2 flex flex-wrap gap-2 justify-evenly dark:text-black ">
-            <button className="w-2/5 rounded-2xl bg-gray-300 h-9">10:00AM-11:00AM</button> 
-            <button  className="w-2/5 rounded-2xl  bg-gray-300 h-9" >10:00AM-11:00AM</button> 
-            <button  className="w-2/5 rounded-2xl  bg-gray-300 h-9" >10:00AM-11:00AM</button> 
-            <button  className="w-2/5 rounded-2xl  bg-gray-300 h-9" >10:00AM-11:00AM</button> 
+            <button className="w-2/5 rounded-2xl bg-orange-300 dark:bg-zinc-50 h-9">10:00AM-11:00AM</button> 
+            <button  className="w-2/5 rounded-2xl bg-orange-300  dark:bg-zinc-50 h-9" >10:00AM-11:00AM</button> 
+            <button  className="w-2/5 rounded-2xl bg-orange-300 dark:bg-zinc-50 h-9" >10:00AM-11:00AM</button> 
+            <button  className="w-2/5 rounded-2xl bg-orange-300 dark:bg-zinc-50 h-9" >10:00AM-11:00AM</button> 
         </div>
      </div>
      <div className="p-3 w-4/5 flex flex-col gap-1">

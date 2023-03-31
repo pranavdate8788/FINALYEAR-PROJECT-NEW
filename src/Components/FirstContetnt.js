@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function FirstContetnt() {
   return (
-    <div className="home  h-auto bg-white light dark:text-white dark:bg-slate-600 p-4 rounded-t-3xl overflow-x-hidden  ">
+    <div className="home  h-auto bg-white light dark:text-white dark:bg-neutral-800  p-4 rounded-t-3xl overflow-x-hidden  ">
       <div className="flex w-full  justify-between p-2 xs:items-center xs:font-semibold">
         <div className="flex-col text-lg  ">
           <h1 className="font-bold text-2xl">Results</h1>
@@ -88,13 +88,13 @@ function FirstContetnt() {
       </div>
       <div className="flex flex-wrap mt-3 font-semibold sticky overflow-x-hidden">
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-slate-800 bg-yellow-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-zinc-700 bg-yellow-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3 dark:bg-violet-200 bg-yellow-100 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -104,16 +104,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 dark:border-white dark:border-solid">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-slate-800 bg-orange-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-zinc-700 bg-orange-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-orange-100 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -123,16 +127,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 ">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-slate-800 bg-green-500 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-zinc-700 bg-green-500 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-green-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -142,16 +150,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-slate-800 bg-pink-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-zinc-700 bg-pink-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-pink-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -161,16 +173,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-slate-800 bg-red-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-zinc-700 bg-red-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-red-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -180,16 +196,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-slate-800 bg-blue-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-zinc-700 bg-blue-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-blue-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -199,16 +219,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-slate-800 bg-purple-400 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-zinc-700 bg-purple-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-purple-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -218,16 +242,20 @@ function FirstContetnt() {
                 <i className="fa-regular fa-heart"></i>
               </div>
             </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+            </div>
           </div>
         </Link>
         <Link to={"/content"}>
-          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-slate-800 bg-emerald-500 relative rounded-xl flex flex-col shadow-slate-600 ">
+          <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl  dark:bg-zinc-700 bg-emerald-500 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
               <span>May 5,2021</span>
               <i className="fa-solid fa-ellipsis-vertical"></i>
             </div>
             <div className="h-32 w-full mx-auto my-3  dark:bg-violet-200 bg-emerald-200 rounded-2xl"></div>
-            <div className="flex justify-between">
+            <div className="flex justify-between text-sm">
               <div className="flex flex-col">
                 <span>What is Design Thinking ?</span>
                 <span>Tutor Name</span>
@@ -236,6 +264,10 @@ function FirstContetnt() {
                 <span>69</span>
                 <i className="fa-regular fa-heart"></i>
               </div>
+            </div>
+            <div className="flex justify-between p-1  item-center ">
+              <label>Online</label>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
             </div>
           </div>
         </Link>

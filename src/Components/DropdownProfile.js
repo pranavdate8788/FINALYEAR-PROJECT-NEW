@@ -2,7 +2,7 @@ import React from "react";
 
 function DropdownProfile() {
   return (
-    <div className="flex flex-col dropdownprofile dark:bg-slate-800" >
+    <div className="flex flex-col dropdownprofile dark:bg-zinc-900 dark:border-white" >
       <div className="flex justify-around items-center">
         <img
           className="rounded-full h-14 w-14 "

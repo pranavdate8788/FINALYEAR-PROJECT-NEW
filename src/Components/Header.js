@@ -41,7 +41,7 @@ const handleThemeSwitch =()=>{
 
   return (
     <>
-    <div className="flex w-full bg-indigo-100 sticky top-0 z-10 dark:bg-slate-800 dark:text-white  justify-between p-2 h-16"  >
+    <div className="flex w-full bg-indigo-100 sticky top-0 z-10 dark:bg-zinc-900 dark:text-white  justify-between p-2 h-16 xs:z-10"   >
       <div className="flex items-center gap-9 p-2 text-lg xs:gap-4  xs:w-full ">
         <div>
           <i
@@ -51,7 +51,7 @@ const handleThemeSwitch =()=>{
         </div>
 
         <span className="mytutor">MyTutor</span> 
-        <div className="mx-2 bg-white dark:bg-white dark:text-black  flex  p-2 w-96 justify-between items-center rounded-full xs:w-60 ">
+        <div className="mx-2 bg-white dark:bg-white dark:text-black text-sm  flex  p-1 w-96 justify-between items-center rounded-full xs:w-60 ">
           <h4>Search</h4>
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>
