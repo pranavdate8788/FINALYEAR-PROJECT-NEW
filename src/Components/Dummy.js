@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dummy() {
   return (
-    <div>Dummy</div>
+    <div className="bg-red-300">Dummy enkjgbebgkjrgkg rjgniurdvkm kmc vjareiinbkkjvkmE AFBkmbkjnbka bkfina vkm RBJInreB KMFIERNGB KM IJFBKRFR BNKMB cjnvdgooidgkjeroigh nbf b</div>
   )
 }
 

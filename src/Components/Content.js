@@ -9,7 +9,7 @@ function Content() {
       <h4 className="xs:text-lg"> May 5, 2023</h4>
       <i class="fa-sharp fa-solid fa-ellipsis-vertical xs:text-lg"></i>
     </div>
-    <div className="bg-orange-4cd 00 dark:bg-slate-600 h-80 p-2 rounded-xl  m-4 xs:h-40 xs:p-1 xs:m-2"></div>
+    <div className="bg-red-300 dark:bg-slate-600 h-80 p-2 rounded-xl  m-4 xs:h-40 xs:p-1 xs:m-2"></div>
     <div className="flex justify-between p-2 items-center text-xl xs:text-sm ">
       <h1 className="xs:text-xs font-semibold" >What is Design thinking ?</h1>
       <div className="flex   items-center gap-5 p-2 xs:gap-0 xs:text-xs xs:p-1 ">
