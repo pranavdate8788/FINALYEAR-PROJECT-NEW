@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function FirstContetnt() {
+
+const FirstContetnt = () => {
   return (
     <div className="home  h-auto bg-white light dark:text-white dark:bg-neutral-800  p-4 rounded-t-3xl overflow-x-hidden  ">
       <div className="flex w-full  justify-between p-2 xs:items-center xs:font-semibold">
@@ -35,7 +36,6 @@ function FirstContetnt() {
       </div>
       <div className="flex  overflow-y-hidden dark:text-slate-100">
         <Link to={"/backrop"}>
-          {" "}
           <div className="relative w-max flex m-4 justify-center  ">
             <div className="w-44 h-44 rounded-full dark:bg-purple-200 bg-orange-400 xs:w-32 xs:h-32 "></div>
             <div className="absolute text-center p-3 bottom-0 h-12  w-32 dark:bg-amber-500 bg-slate-200 rounded-2xl xs:h-9 xs:w-24 xs:rounded-2xl xs:p-1    ">
@@ -106,7 +106,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 dark:border-white dark:border-solid">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 dark:border-white dark:border-solid">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -129,7 +131,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 ">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900 ">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -152,7 +156,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -175,7 +181,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -198,7 +206,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -221,7 +231,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -244,7 +256,9 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
@@ -267,13 +281,15 @@ function FirstContetnt() {
             </div>
             <div className="flex justify-between p-1  item-center ">
               <label>Online</label>
-              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">Rs.69(per hour)</button>
+              <button className="bg-pink-200 rounded-xl p-1 dark:bg-zinc-900">
+                Rs.69(per hour)
+              </button>
             </div>
           </div>
         </Link>
       </div>
     </div>
   );
-}
+};
 
 export default FirstContetnt;

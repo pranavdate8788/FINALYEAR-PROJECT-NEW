@@ -20,11 +20,12 @@ const Sidebar = ({ isOpen, toggle }) => {
         <h2 className="text-2xl ">My Tutor</h2>
         <i
           className="fa-solid fa-xmark cursor-pointer  text-2xl rounded-full"
-          onClick={toggle}></i>
+          onClick={toggle}
+        ></i>
       </div>
       <div className="flex flex-col gap-3 list-none p-2">
         <div className="flex gap-2 items-center  " onClick={handleThemeSwitch}>
-          {" "}
+          
           <i className="fa-solid fa-moon cursor-pointer"> </i>
           <label>Dark Mode</label>
         </div>
@@ -33,7 +34,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <label>Notifications</label>
         </div>
         <div className="flex gap-2 items-center ">
-          {" "}
+          
           <i className="fa-solid fa-circle-plus"> </i>
           <label>Upload</label>
         </div>
