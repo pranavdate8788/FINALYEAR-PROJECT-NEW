@@ -6,6 +6,9 @@ const Profile = () => {
       <div>gk</div>
       <div>f n</div>
       <div>f 5</div>
+
+
+      <div>  new change </div>
     </div>
   );
 }
