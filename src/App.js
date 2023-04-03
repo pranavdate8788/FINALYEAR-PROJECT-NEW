@@ -7,7 +7,8 @@ import FirstContetnt from "./Components/FirstContetnt";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import VerticalNav from "./Components/VerticalNav";
-function App() {
+
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -25,6 +26,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
