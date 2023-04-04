@@ -7,6 +7,7 @@ import FirstContetnt from "./Components/FirstContetnt";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import VerticalNav from "./Components/VerticalNav";
+import AllPost from "./Components/AllPost";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/content" element={<Content />} />
             <Route path="/dummy" element={<Dummy />} />
             <Route path="/backrop" element={<Backrop />} />
+            <Route path="/allpost" element={<AllPost/>}/>
           </Routes>
         </div>
       </BrowserRouter>
