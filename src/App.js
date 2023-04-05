@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Backrop from "./Components/Backrop";
+// import Backrop from "./Components/Backrop";
 import Content from "./Components/Content";
 import Dummy from "./Components/Dummy";
 import FirstContetnt from "./Components/FirstContetnt";
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/content" element={<Content />} />
             <Route path="/dummy" element={<Dummy />} />
-            <Route path="/backrop" element={<Backrop />} />
+            {/* <Route path="/backrop" element={<Backrop />} /> */}
             <Route path="/allpost" element={<AllPost/>}/>
           </Routes>
         </div>

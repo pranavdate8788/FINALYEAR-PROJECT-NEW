@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({ isOpen, toggle }) => {
   const [theme, setTheme] = useState("light");
@@ -43,14 +44,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           <label>Setting</label>
         </div>
       </div>
-      <div className="flex bottom-2 absolute items-center gap-20 xs:gap-10">
+  <Link to={"/profile"} >  <div className="flex bottom-2 absolute items-center gap-20 xs:gap-10">
         <img
           className="rounded-full h-14 w-14"
           src="https://www.fakepersongenerator.com/Face/female/female20161025115339539.jpg"
           alt=""
         />
         <label>TutorName</label>
-      </div>
+      </div></Link> 
     </div>
   );
 };

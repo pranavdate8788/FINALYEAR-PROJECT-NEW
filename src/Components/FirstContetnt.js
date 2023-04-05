@@ -35,14 +35,14 @@ const FirstContetnt = () => {
         </div>
       </div>
       <div className="flex  overflow-y-hidden dark:text-slate-100">
-        <Link to={"/backrop"}>
+        
           <div className="relative w-max flex m-4 justify-center  ">
             <div className="w-44 h-44 rounded-full dark:bg-purple-200 bg-orange-400 xs:w-32 xs:h-32 "></div>
             <div className="absolute text-center p-3 bottom-0 h-12  w-32 dark:bg-amber-500 bg-slate-200 rounded-2xl xs:h-9 xs:w-24 xs:rounded-2xl xs:p-1    ">
               Student
             </div>
           </div>
-        </Link>
+        
         <div className="relative w-max flex m-4 justify-center  ">
           <div className="w-44 h-44 rounded-full  dark:bg-purple-200 bg-pink-600 xs:w-32 xs:h-32 "></div>
           <div className="absolute text-center p-3 bottom-0 h-12  w-32  dark:bg-amber-500 bg-slate-200 rounded-2xl xs:h-9 xs:w-24 xs:rounded-2xl xs:p-1    ">
@@ -86,7 +86,7 @@ const FirstContetnt = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap mt-3 font-semibold sticky overflow-x-hidden">
+      <div className="flex flex-wrap mt-3 font-semibold sticky overflow-y-auto  ">
         <Link to={"/content"}>
           <div className="h-auto p-3 w-80 m-2 shadow-lg dark:shadow-xl dark:bg-zinc-700 bg-yellow-400 relative rounded-xl flex flex-col shadow-slate-600 ">
             <div className="flex justify-between">
