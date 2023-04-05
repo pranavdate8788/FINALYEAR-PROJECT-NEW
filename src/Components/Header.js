@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import { useState, useEffect, useRef } from "react";
 import Backrop from "./Backrop";
+import Education from "./Education";
 
 const Header = () => {
   const [openProfile, setOpenProfile] = useState(false);
@@ -15,6 +16,20 @@ const Header = () => {
     document.addEventListener("mousedown", handler);
     return () => {
       document.removeEventListener("mousedown", handler);
+    };
+  });
+
+  const [openEducation, setOpenEducation] = useState(false);
+  let EducationRef = useRef();
+  useEffect(() => {
+    let handler = (e) => {
+      if (!EducationRef.current.contains(e.target)) {
+        setOpenEducation(false);
+      }
+    };
+    document.addEventListener("mouseup", handler);
+    return () => {
+      document.removeEventListener("mouseup", handler);
     };
   });
 
@@ -61,7 +76,8 @@ const Header = () => {
             onClick={handleThemeSwitch}
           ></i>
 
-          <i className="fa-solid fa-circle-plus"></i>
+          <i className="fa-solid fa-circle-plus"  ref={EducationRef}
+            onClick={() => setOpenEducation((prev) => !prev)}> {openEducation && <Education/>}</i>
           <i className="fa-solid fa-bell"></i>
           <div
             className=" flex justify-between items-center gap-2 cursor-pointer "

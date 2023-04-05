@@ -1,5 +1,5 @@
-body {
-  color: #1f1c2e;
+body  {
+background-color:rgb(211, 238, 251) ;
 }
 ::-webkit-scrollbar {
   width: 16px;
@@ -53,7 +53,20 @@ body {
   border-left: 1px solid white;
   border-top: 1px solid white;
 }
+.education {
+  position: absolute;
+  top: 4rem;
+  z-index: 1;
+  right: 17rem;
+  width: 900px;
+  height: 450px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(133, 251, 212);
+  border: 1px solid black;
+}
 
+ 
 .dark .sidebar {
   background-color: rgb(56, 51, 51);
 }
@@ -62,7 +75,7 @@ body {
   top: 0;
   left: 0;
   width: 300px;
-  height: 715px;
+  height: 670px;
   background-color: #8ae4eb;
   padding: 20px;
   box-sizing: border-box;
@@ -75,34 +88,7 @@ body {
 .sidebar.open {
   transform: translateX(0);
 }
-.calender {
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 700px;
-  background-color: #e55151;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.calender {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 700px;
-  background-color: #de0f5b;
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 2;
-  border-radius: 0 2rem 2rem 0;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-.calender.calopen {
-  transform: translateX(0);
-}
+ 
 .child {
   gap: 3px;
 }
@@ -128,7 +114,10 @@ body {
 @media screen and (max-width: 385px) {
   .footer {
     width: 100%;
-    z-index: 1;
+    z-index: 2;
+    position: absolute;
+    bottom: 0%;
+    
   }
 }
 @media screen and (max-width: 385px) {

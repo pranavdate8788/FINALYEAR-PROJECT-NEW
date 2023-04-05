@@ -2,7 +2,7 @@ import React from "react";
 
 function AllPost() {
   return (
-    <div className="flex h-screen w-full">
+    <div className="flex h-screen w-full rounded-3xl bg-white">
       <div className="w-1/3 flex flex-col h-auto items-center p-2 gap-4 ">
         <h3 className="text-lg font-semibold">Profile Photo</h3>
         <div className="h-32 w-32 rounded-full bg-lime-300  relative ">
@@ -53,7 +53,7 @@ function AllPost() {
         </div>
       </div>
       <div className=" w-9/12 p-2 flex flex-col gap-2 overflow-scroll">
-        <div className="flex gap-3 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-3 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -67,7 +67,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5    dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -81,7 +81,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -95,7 +95,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -109,7 +109,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -123,7 +123,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">
@@ -137,7 +137,7 @@ function AllPost() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 bg-slate-500 w-4/6 p-2 ">
+        <div className="flex gap-2 bg-blue-300 w-4/6 p-2 ">
           <div className="h-32 w-2/5   dark:bg-violet-200 bg-pink-200 rounded-xl"></div>
 
           <div className="flex flex-col">

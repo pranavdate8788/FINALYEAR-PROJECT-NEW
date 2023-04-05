@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Backrop = () => {
   return (
+     
     <div className="flex flex-col dropdownprofile dark:bg-zinc-900 dark:border-white">
      <Link to={"/profile"}> <div className="flex justify-around items-center">
         <img
@@ -36,6 +37,8 @@ const Backrop = () => {
         </li>
       </ul>
     </div>
+ 
+   
   );
 }
 

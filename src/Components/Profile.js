@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="flex p-1  w-full h-screen rounded-t-2xl ">
-      <div className="w-1/3 flex flex-col h-auto items-center p-2 gap-4 overflow-y-hidden ">
+    <div className="flex   w-full h-screen rounded-t-3xl bg-white ">
+      <div className="w-1/3 flex flex-col h-auto items-center p-1 gap-4 overflow-y-hidden rounded-tl-3xl bg-teal-100">
         <h3 className="text-lg font-semibold">Profile Photo</h3>
         <div className="h-32 w-32 rounded-full bg-lime-300  relative ">
           <img
